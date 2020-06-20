@@ -6,14 +6,14 @@
 
 1.	make README.md includes
 
--    some explanations
--	Explanation about the branches
--	URL
+    -    some explanations
+    -	Explanation about the branches
+    -	URL
 
 1.	Go to repo setting and use Master will the website branch
 
 1.	We need to create an index.html
 
-1.	Clone the mockup derictory.
+1.	Clone the mockup directory.
 
 1.	Copy all of the work in mockup project.
