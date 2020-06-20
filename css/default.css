@@ -1,0 +1,47 @@
+html {
+  font-size: 16px;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  background-color: #f6f8f9;
+}
+
+.time {
+  font-size: 13px;
+  font-style: oblique;
+  color: #a6adb4;
+  background-image: url(../images/clock.svg);
+  background-repeat: no-repeat;
+  padding-inline-start: 2rem;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: 700;
+  color: #202124;
+  text-transform: uppercase;
+  background-image: url(../images/back_arrow.svg),
+                    url(../images/next_arrow.svg);
+  background-repeat: no-repeat;
+  background-size: 0.5rem;
+  background-position: 86% 20%, 100% 20%;
+}
+
+@media (min-width: 768px) {
+
+  .heading {
+    background-position: 90% 20%, 100% 20%;
+    margin-block-start: 0rem;
+  }
+
+}
